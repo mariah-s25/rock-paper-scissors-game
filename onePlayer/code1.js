@@ -13,6 +13,7 @@ var result;
 
 var score = localStorage.getItem("score");
 if(!score){
+  score = 0;
   document.getElementById("scores").innerHTML = 0;
 }
 else{

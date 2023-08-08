@@ -14,12 +14,14 @@ var result;
 var firstScore = localStorage.getItem("firstScore");
 var secScore = localStorage.getItem("secScore");
 if(!firstScore){
+  firstScore = 0;
   document.getElementById("firstScore").innerHTML = 0;
 }
 else{
   document.getElementById("firstScore").innerHTML = score1;
 }
 if(!secScore){
+  secScore = 0;
   document.getElementById("secScore").innerHTML = 0;
 }
 else{
